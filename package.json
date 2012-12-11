@@ -1,0 +1,48 @@
+{
+    "name": "warlock",
+    "version": "0.0.1",
+    "description": "real time game engine use websocket server.you can use warlock to create your project structure and in defaulte, use it you can create a websocket server.",
+    "author": {
+        "name": "bashao"
+    },
+    "keywords": [
+        "mvc",
+        "web-framework",
+        "express",
+        "websocket",
+        "server"
+    ],
+    "homepage": "http://ibashao.com/warlock",
+    "engines": [
+        "node >= 0.4.0"
+    ],
+    "main": "lib/onwarlock",
+    "bin": {
+        "warlock": "bin/warlock",
+        "wl": "bin/warlock"
+    },
+    "dependencies": {
+        "express": "latest",
+        "express-namespace": "latest",
+        "jade": "latest",
+        "mongoose": "latest",
+        "connect-mongodb": "latest",
+        "passport": "latest",
+        "passport-local": "latest",
+        "passport-github": "latest",
+        "gzippo": "latest",
+        "async": "latest",
+        "nodemon": "latest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vincent-li/warlock"
+    },
+    "devDependencies": {
+        "jugglingdb": ">= 0.1.3",
+        "nodeunit": "*"
+    },
+    "scripts": {
+        "test": "./support/nodeunit/bin/nodeunit test"
+    }
+}
