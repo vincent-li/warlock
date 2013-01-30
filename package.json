@@ -24,15 +24,8 @@
     "dependencies": {
         "express": "latest",
         "express-namespace": "latest",
-        "jade": "latest",
-        "mongoose": "latest",
-        "connect-mongodb": "latest",
-        "passport": "latest",
-        "passport-local": "latest",
-        "passport-github": "latest",
-        "gzippo": "latest",
-        "async": "latest",
-        "nodemon": "latest"
+        "jugglingdb": "latest",
+        "websocket" : "latest"
     },
     "repository": {
         "type": "git",

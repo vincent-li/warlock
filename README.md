@@ -19,7 +19,7 @@ Then visit [http://localhost:4000/](http://localhost:4000/)
 -app/
   |__actions/
   |__models/
-  |__views/
+  |__controllers/
 -config/
   |__routes.js
   |__config.js
@@ -31,7 +31,7 @@ up with a demo as earliest as I can. Please feel free to fork and send updates :
 
 ---
 
-## License
+## MIT License
 
 Copyright (c) 2012 bashao < [vincent.liwq@gmail.com](mailto:vincent.liwq@gmail.com) >
 
