@@ -6,11 +6,11 @@ This is a real game engine solutions. you can use the base cammand to create a w
 ```sh
   $ git clone git://github.com/vincent-li/warlock
   $ npm install
-  $ cp config/config.example.js config/config.js
-  $ npm start
+  $ wl/warlock -i/init
+  $ wl server 4000
 ```
 
-**NOTE:** Do not forget to update your facebook twitter and github APP_ID and APP_SECRET in `config/config.js`
+**NOTE:** your config files is in folder `config/..`
 
 Then visit [http://localhost:4000/](http://localhost:4000/)
 
