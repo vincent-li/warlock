@@ -25,7 +25,8 @@
         "express": "latest",
         "express-namespace": "latest",
         "jugglingdb": "latest",
-        "websocket" : "latest"
+        "websocket" : "latest",
+        "step" : "latest"
     },
     "repository": {
         "type": "git",

@@ -5,7 +5,7 @@ var sys = require('util');
 try {
     require(process.cwd() + '/server');
 } catch (e) {
-    // TODO: remove this fallback
+    //console.log(e);
     require('../lib/onwarlock').initSystem();
 }
 
