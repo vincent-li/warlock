@@ -5,7 +5,7 @@ var sys = require('util');
 try {
     require(process.cwd() + '/server');
 } catch (e) {
-    //console.log(e);
+    console.log(e);
     require('../lib/onwarlock').initSystem();
 }
 

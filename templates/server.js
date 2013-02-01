@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var app = require('warlock').initSystem();
+var app = module.exports = require('warlock').initSystem();
 
 if (!module.parent) {
     var port = process.env.PORT || 3000;
