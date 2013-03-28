@@ -16,19 +16,14 @@
     "engines": [
         "node >= 0.4.0"
     ],
-    "main": "lib/onwarlock",
+    "main": "lib/onwarlock.js",
     "bin": {
-        "warlock": "bin/warlock",
-        "wl": "bin/warlock"
+        "warlock": "bin/warlock.js",
+        "wl": "bin/warlock.js"
     },
     "dependencies": {
-        "express": "latest",
-        "express-namespace": "latest",
-        "mongoose": "latest",
-        "mongodb": ">= 0.9.9",
-        "jugglingdb": "latest",
-        "jugglingdb-mongodb" : "latest",
-        "websocket" : "latest"
+        "websocket" : "latest",
+        "compound" : "latest"
     },
     "repository": {
         "type": "git",
