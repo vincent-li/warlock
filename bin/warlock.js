@@ -21,11 +21,12 @@ if (typeof instantiateApp === 'function') {
 if (!compound) {
     var Compound = require('compound').Compound;
     compound = new Compound;
+    var Compound = require('compound').Compound;
+    compound = new Compound;
+    app = compound.app;
 }
 
-module.exports = compound;
-
-var wapp = require('warlock');
+var wapp = require('../lib/onwarlock');
 
 var args = process.argv.slice(2);
 var exitAfterAction = true;
@@ -114,6 +115,7 @@ process.nextTick(function () {
                 wapp.init(compound);
             }
         });
+        exitAfterAction = false;
         break;
     case '--version':
         console.log(compound.version);
